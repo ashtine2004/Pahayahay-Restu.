@@ -130,7 +130,7 @@ body{
   border-bottom: 1px solid #ddd;
 }
 
-.menu-section li:last :last-child{
+.menu-section li:last-child{
   border-bottom: none;
 }
 
@@ -334,4 +334,45 @@ body{
   width: 100%;
   padding: 0.75em;
   margin-bottom: 1em;
+}
+.contact-form button{
+    display: inline-block;
+    background-color: #880000;
+    color:  #fff;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.contact-form button:hover{
+    background-color: #A52A2A;
+}
+
+
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+@media (max-width: 768px){
+    .navbar .container{
+        flex-direction: column;
+    }
+  .navbar .nav-links{
+        flex-direction: column;
+        margin-top: 1em;
+    }
+  .navbar .nav-links li{
+        margin: 0.5em 0;
+    }
+  .hero h1{
+        font-size: 2em;
+    }
+
+    .hero p{
+        font-size: 1em;
+    }
 }
