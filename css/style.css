@@ -56,7 +56,7 @@ body{
 }
 
 .hero{
-  background: url("../img/rst.jpg") no-repeat center center/cover fixed;
+  background: url("../rst.jpg") no-repeat center center/cover fixed;
   padding: 5em 0;
   color: #fff;
   text-align: center;
